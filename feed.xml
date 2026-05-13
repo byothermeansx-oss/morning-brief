@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Bob&#x27;s Morning Brief</title>
+  <atom:link href="https://byothermeansx-oss.github.io/morning-brief/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://byothermeansx-oss.github.io/morning-brief/</link>
+  <description>A daily 15–20 minute geopolitics, economy, AI, and arts brief. Auto-generated each weekday morning at 06:08 ET from a curated set of sources, then narrated by Apple&#x27;s neural TTS. Built for the commute.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 13 May 2026 10:30:13 +0000</lastBuildDate>
+  <itunes:author>Axion</itunes:author>
+  <itunes:owner>
+    <itunes:name>Bob Luther</itunes:name>
+    <itunes:email>bob.luther@gmail.com</itunes:email>
+  </itunes:owner>
+  <itunes:image href="https://byothermeansx-oss.github.io/morning-brief/cover.jpg"/>
+  <itunes:category text="News">
+    <itunes:category text="Daily News"/>
+  </itunes:category>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Morning Brief — Wed 13 May 2026</title>
+    <description>Good morning. The most consequential event of the global cycle is in Beijing. President Trump landed in the Chinese capital on May 13 with War Secretary Pete Hegseth on the plane. Both men insist America needs no help from China on Iran. The choreography says otherwise. Hegseth does not fly to Beijing if Tehran is settled. The two-day Trump-Xi summit opens against an Iran ceasefire on life support, oil holding near $107 a barrel, and US inflation running at the fastest pace in three years.</description>
+    <pubDate>Wed, 13 May 2026 10:15:00 +0000</pubDate>
+    <guid isPermaLink="false">2026-05-13-news</guid>
+    <enclosure url="https://byothermeansx-oss.github.io/morning-brief/episodes/2026-05-13-news.m4a" length="3869432" type="audio/mp4"/>
+    <itunes:duration>00:15:20</itunes:duration>
+    <itunes:author>Axion</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>

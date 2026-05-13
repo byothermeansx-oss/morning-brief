@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Morning Brief</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background: #0a0a0e;
+    color: #f5f5f0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+  }
+  main { max-width: 32rem; text-align: center; }
+  img { width: 12rem; height: 12rem; border-radius: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+  p  { color: #a0a0a5; margin: 0.25rem 0; }
+  code {
+    display: inline-block;
+    background: #1a1a20;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+  a { color: #dc5032; }
+</style>
+</head>
+<body>
+<main>
+  <img src="cover.jpg" alt="Morning Brief cover">
+  <h1>Morning Brief</h1>
+  <p>A private daily briefing. Subscribe in any podcast app:</p>
+  <code id="feed-url">feed.xml</code>
+  <script>
+    const u = new URL('feed.xml', location.href);
+    document.getElementById('feed-url').textContent = u.toString();
+  </script>
+</main>
+</body>
+</html>
